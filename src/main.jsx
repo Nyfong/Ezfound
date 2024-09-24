@@ -35,10 +35,10 @@ const router = createBrowserRouter([
         path: "/servicepage",
         element: <Servicepage />,
       },
-      {
-        path: "/detailsListingpage",
-        element: <DetailListingPage />,
-      },
+      // {
+      //   path: "/detailsListingpage",
+      //   element: <DetailListingPage />,
+      // },
       {
         path: "/api/:id",
         element: <CloneDetails />,
@@ -67,10 +67,10 @@ const router = createBrowserRouter([
         path: "/ai",
         element: <GeminiChatBot />,
       },
-      {
-        path: "/acc",
-        element: <Profile />,
-      },
+      // {
+      //   path: "/acc",
+      //   element: <Profile />,
+      // },
       {
         path: "*",
         element: <ErrorPage />,
