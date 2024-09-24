@@ -1,4 +1,4 @@
-import SideMenu from "../components/button/sideMenu/sideMenu.jsx";
+import { SideMenu } from "../components/button/sideMenu/sideMenu";
 import { CardProfile } from "./profile/CardProfile";
 import {
   InformationProfile,
