@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import GeminiChatBot from "./GeminiChatBot";
-import Ailogo from "../../assets/img/Ai.png";
+import Ailogo from "../../assets/img/AI.png";
 export default function ChatbotButton() {
   const [isChatbotVisible, setIsChatbotVisible] = useState(false);
 
