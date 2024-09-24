@@ -24,7 +24,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
               <img
                 src={isDarkMode ? logo2 : logo1} // Switch logos based on dark mode
                 alt="logo"
-                className="h-[55px] w-[100%]"
+                className="h-[55px] w-[55px]"
               />
             </NavLink>
             <button
